@@ -20,7 +20,7 @@ describe ( "post/users" , () =>
                 */
             });
 
-            test( "Deberia ser content-type igaul a JSON" , async () =>
+            test( "Deberia ser content-type igual a JSON" , async () =>
                 {
                     const response = await supertest(app).post("/users").send(
                         {
